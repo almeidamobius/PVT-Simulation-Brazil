@@ -28,7 +28,7 @@ Este projeto implementa a modelagem matemática completa de um sistema **Fotovol
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/almeidamobius/PVT-Simulation-Brazil.git
+git clone https://github.com/almeidamobius/PVT-Simulation-Brazil
 cd PVT-Simulation-Brazil
 
 # 2. Crie um ambiente virtual
