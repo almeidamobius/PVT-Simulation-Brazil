@@ -434,7 +434,7 @@ def simular(use_hex=True):
         return h_conv + h_rad
     
     # ── Leitura dos dados da cidade ──
-    df = pd.read_csv("irradiação_global_horizontal.csv", sep=";", encoding="utf-8")
+    df = pd.read_csv("data/irradiação_global_horizontal.csv", sep=";", encoding="utf-8")
     df["NAME"] = df["NAME"].str.strip()
     row = df[df["NAME"].str.lower() == CIDADE_ALVO.lower()].iloc[0]
     H_h_dia = float(row["NOV"])
