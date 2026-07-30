@@ -8,7 +8,7 @@ from math import sin, cos, tan, acos, pi, radians, log, exp
 # ╚══════════════════════════════════════════════════════════════════════════════╝
 
 # ─── DADOS DA SIMULAÇÃO ───
-CIDADE_ALVO = "Florianópolis"
+CIDADE_ALVO = "Coloque a cidade AQUI"
 N_DIA = 318              # Dia do ano (1-365)
 V_VENTO = 2.24           # Velocidade do vento [m/s]
 USAR_TROCADOR = True     # True = com trocador de calor, False = sem
